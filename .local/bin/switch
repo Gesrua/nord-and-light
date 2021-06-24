@@ -18,7 +18,7 @@ then
     feh --bg-fill ~/Pictures/Background/NordDay.png
     sed -i "s/bg ~\/Pictures\/Background\/NordNight.png fill/bg ~\/Pictures\/Background\/NordDay.png fill/g" ~/.config/sway/config
     # Dunst
-    cp ~/.config/dunst/dunstrc-nord-light ~/.config/dunst/dunstrc
+    cp ~/.config/dunst/dunstrc-light ~/.config/dunst/dunstrc
     # Mako
     sed -i "s/#4c566a/#e5e9f0/g" ~/.config/mako/config
     sed -i "s/#434c5e/#eceff4/g" ~/.config/mako/config
@@ -78,7 +78,7 @@ then
         pkill -1 spectrwm
     fi
     # Alacritty
-    cp ~/.config/alacritty/alacritty-nord-light.yml ~/.config/alacritty/alacritty.yml
+    cp ~/.config/alacritty/alacritty-light.yml ~/.config/alacritty/alacritty.yml
     # Kitty
     sed -i "s/dark/light/g" ~/.config/kitty/kitty.conf
     sed -i "s/dark/light/g" ~/.config/kitty/kitty-w.conf
@@ -114,7 +114,7 @@ then
     # Sublime
     sed -i "s/Nord\/Nord.sublime-color-scheme/One Half Color Schemes\/OneHalfLight.tmTheme/g" ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
     # Zathura
-    cp ~/.config/zathura/zathurarc-nord-light ~/.config/zathura/zathurarc
+    cp ~/.config/zathura/zathurarc-light ~/.config/zathura/zathurarc
     # Daemons
     if [ $2 == "sway" ]
     then
@@ -137,7 +137,7 @@ then
     feh --bg-fill ~/Pictures/Background/NordNight.png
     sed -i "s/bg ~\/Pictures\/Background\/NordDay.png fill/bg ~\/Pictures\/Background\/NordNight.png fill/g" ~/.config/sway/config
     # Dunst
-    cp ~/.config/dunst/dunstrc-nord-dark ~/.config/dunst/dunstrc
+    cp ~/.config/dunst/dunstrc-nord ~/.config/dunst/dunstrc
     # Mako
     sed -i "s/#e5e9f0/#4c566a/g" ~/.config/mako/config
     sed -i "s/#eceff4/#434c5e/g" ~/.config/mako/config
@@ -201,7 +201,7 @@ then
         pkill -1 spectrwm
     fi
     # Alacritty
-    cp ~/.config/alacritty/alacritty-nord-dark.yml ~/.config/alacritty/alacritty.yml
+    cp ~/.config/alacritty/alacritty-nord.yml ~/.config/alacritty/alacritty.yml
     # Kitty
     sed -i "s/light/dark/g" ~/.config/kitty/kitty.conf
     sed -i "s/light/dark/g" ~/.config/kitty/kitty-w.conf
@@ -237,7 +237,7 @@ then
     # Sublime
     sed -i "s/One Half Color Schemes\/OneHalfLight.tmTheme/Nord\/Nord.sublime-color-scheme/g" ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
     # Zathura
-    cp ~/.config/zathura/zathurarc-nord-dark ~/.config/zathura/zathurarc
+    cp ~/.config/zathura/zathurarc-nord ~/.config/zathura/zathurarc
     # Daemons
     if [ $2 == "sway" ]
     then
